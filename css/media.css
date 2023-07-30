@@ -1,0 +1,60 @@
+/* laptop */
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .log {
+        width: 1200px;
+    }
+    .join-container {
+        width: 90%;
+    }
+    .banner {
+        width: 57%;
+        height: 80%;
+    }
+}
+/* small laptop */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .container {
+        width: 900px;
+    }
+    .log {
+        width: 900px;
+    }
+    .join-container {
+        width: 90%;
+    }
+    .banner {
+        width: 55%;
+        height: 65%;
+    }
+}
+/* tablet */
+@media screen and (min-width:481px) and (max-width:768px) {
+    .container {
+        width: 768px;
+        height: 836px;
+    }
+    .join-container {
+        width: 424px;
+        height: 556px;
+    }
+    .banner {
+        display: none;
+    }
+}
+/* mobile */
+@media screen and (min-width:320px) and (max-width:480px) {
+    .container {
+        width: 375px;
+        height: 748px;
+    }
+    .join-container {
+        width: 343px;
+        height: 608px;
+    }
+    .banner {
+        display: none;
+    }
+}
